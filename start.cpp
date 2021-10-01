@@ -8,11 +8,16 @@
 #include <sys/wait.h>
 #include <sys/stat.h>
 #include <fcntl.h>
+#include <ctime>
 using namespace std;
 
 int main (){
+
+    time_t now = time(0);
+    char* dt = ctime(&now);
+
     while (true){
-        cout << "My Shell$ ";
+        cout << "My Shell>sedupuganti>" << dt << "$";
         string inputline;
         getline (cin, inputline);   // get a line from standard input
         if (inputline == string("exit")){
