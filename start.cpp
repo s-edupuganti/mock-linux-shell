@@ -289,9 +289,7 @@ vector<string> pipeSplit (string line, char separator){ // copied from common.cp
         result = partSplit(trimSpace(line), ' '); 
 
 
-        cout << "Display results vector with singl: " << endl;
 
-        displayVect(result);
 
 
 
@@ -307,9 +305,9 @@ vector<string> pipeSplit (string line, char separator){ // copied from common.cp
         result = partSplit(trimSpace(line), ' '); 
 
 
-        cout << "Display results vector with double qyotes: " << endl;
+        // cout << "Display results vector with double qyotes: " << endl;
 
-        displayVect(result);
+        // displayVect(result);
 
 
 
