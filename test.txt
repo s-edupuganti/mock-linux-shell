@@ -1,0 +1,355 @@
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.0 167620 10420 ?        Ss   Oct08   0:04 /sbin/init splash
+root           2  0.0  0.0      0     0 ?        S    Oct08   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        I<   Oct08   0:00 [rcu_gp]
+root           4  0.0  0.0      0     0 ?        I<   Oct08   0:00 [rcu_par_gp]
+root           6  0.0  0.0      0     0 ?        I<   Oct08   0:00 [kworker/0:0H-events_highpri]
+root           9  0.0  0.0      0     0 ?        I<   Oct08   0:00 [mm_percpu_wq]
+root          10  0.0  0.0      0     0 ?        S    Oct08   0:00 [rcu_tasks_rude_]
+root          11  0.0  0.0      0     0 ?        S    Oct08   0:00 [rcu_tasks_trace]
+root          12  0.0  0.0      0     0 ?        S    Oct08   0:03 [ksoftirqd/0]
+root          13  0.0  0.0      0     0 ?        I    Oct08   1:23 [rcu_sched]
+root          14  0.0  0.0      0     0 ?        S    Oct08   0:00 [migration/0]
+root          15  0.0  0.0      0     0 ?        S    Oct08   0:00 [idle_inject/0]
+root          16  0.0  0.0      0     0 ?        S    Oct08   0:00 [cpuhp/0]
+root          17  0.0  0.0      0     0 ?        S    Oct08   0:00 [cpuhp/1]
+root          18  0.0  0.0      0     0 ?        S    Oct08   0:00 [idle_inject/1]
+root          19  0.0  0.0      0     0 ?        S    Oct08   0:00 [migration/1]
+root          20  0.0  0.0      0     0 ?        S    Oct08   0:12 [ksoftirqd/1]
+root          22  0.0  0.0      0     0 ?        I<   Oct08   0:00 [kworker/1:0H-events_highpri]
+root          23  0.0  0.0      0     0 ?        S    Oct08   0:00 [cpuhp/2]
+root          24  0.0  0.0      0     0 ?        S    Oct08   0:00 [idle_inject/2]
+root          25  0.0  0.0      0     0 ?        S    Oct08   0:00 [migration/2]
+root          26  0.0  0.0      0     0 ?        S    Oct08   0:03 [ksoftirqd/2]
+root          28  0.0  0.0      0     0 ?        I<   Oct08   0:00 [kworker/2:0H-events_highpri]
+root          29  0.0  0.0      0     0 ?        S    Oct08   0:00 [cpuhp/3]
+root          30  0.0  0.0      0     0 ?        S    Oct08   0:00 [idle_inject/3]
+root          31  0.0  0.0      0     0 ?        S    Oct08   0:00 [migration/3]
+root          32  0.0  0.0      0     0 ?        S    Oct08   0:08 [ksoftirqd/3]
+root          34  0.0  0.0      0     0 ?        I<   Oct08   0:00 [kworker/3:0H-events_highpri]
+root          35  0.0  0.0      0     0 ?        S    Oct08   0:00 [cpuhp/4]
+root          36  0.0  0.0      0     0 ?        S    Oct08   0:00 [idle_inject/4]
+root          37  0.0  0.0      0     0 ?        S    Oct08   0:00 [migration/4]
+root          38  0.0  0.0      0     0 ?        S    Oct08   0:01 [ksoftirqd/4]
+root          40  0.0  0.0      0     0 ?        I<   Oct08   0:00 [kworker/4:0H-events_highpri]
+root          41  0.0  0.0      0     0 ?        S    Oct08   0:00 [cpuhp/5]
+root          42  0.0  0.0      0     0 ?        S    Oct08   0:00 [idle_inject/5]
+root          43  0.0  0.0      0     0 ?        S    Oct08   0:00 [migration/5]
+root          44  0.0  0.0      0     0 ?        S    Oct08   0:24 [ksoftirqd/5]
+root          46  0.0  0.0      0     0 ?        I<   Oct08   0:00 [kworker/5:0H-events_highpri]
+root          47  0.0  0.0      0     0 ?        S    Oct08   0:00 [cpuhp/6]
+root          48  0.0  0.0      0     0 ?        S    Oct08   0:00 [idle_inject/6]
+root          49  0.0  0.0      0     0 ?        S    Oct08   0:00 [migration/6]
+root          50  0.0  0.0      0     0 ?        S    Oct08   0:19 [ksoftirqd/6]
+root          52  0.0  0.0      0     0 ?        I<   Oct08   0:00 [kworker/6:0H-events_highpri]
+root          53  0.0  0.0      0     0 ?        S    Oct08   0:00 [cpuhp/7]
+root          54  0.0  0.0      0     0 ?        S    Oct08   0:00 [idle_inject/7]
+root          55  0.0  0.0      0     0 ?        S    Oct08   0:00 [migration/7]
+root          56  0.0  0.0      0     0 ?        S    Oct08   0:08 [ksoftirqd/7]
+root          58  0.0  0.0      0     0 ?        I<   Oct08   0:00 [kworker/7:0H-events_highpri]
+root          59  0.0  0.0      0     0 ?        S    Oct08   0:00 [kdevtmpfs]
+root          60  0.0  0.0      0     0 ?        I<   Oct08   0:00 [netns]
+root          61  0.0  0.0      0     0 ?        I<   Oct08   0:00 [inet_frag_wq]
+root          62  0.0  0.0      0     0 ?        S    Oct08   0:00 [kauditd]
+root          63  0.0  0.0      0     0 ?        S    Oct08   0:00 [khungtaskd]
+root          64  0.0  0.0      0     0 ?        S    Oct08   0:00 [oom_reaper]
+root          65  0.0  0.0      0     0 ?        I<   Oct08   0:00 [writeback]
+root          66  0.0  0.0      0     0 ?        S    Oct08   0:18 [kcompactd0]
+root          67  0.0  0.0      0     0 ?        SN   Oct08   0:00 [ksmd]
+root          68  0.0  0.0      0     0 ?        SN   Oct08   0:00 [khugepaged]
+root         115  0.0  0.0      0     0 ?        I<   Oct08   0:00 [kintegrityd]
+root         116  0.0  0.0      0     0 ?        I<   Oct08   0:00 [kblockd]
+root         117  0.0  0.0      0     0 ?        I<   Oct08   0:00 [blkcg_punt_bio]
+root         118  0.0  0.0      0     0 ?        I<   Oct08   0:00 [tpm_dev_wq]
+root         119  0.0  0.0      0     0 ?        I<   Oct08   0:00 [ata_sff]
+root         120  0.0  0.0      0     0 ?        I<   Oct08   0:00 [md]
+root         121  0.0  0.0      0     0 ?        I<   Oct08   0:00 [edac-poller]
+root         122  0.0  0.0      0     0 ?        I<   Oct08   0:00 [devfreq_wq]
+root         123  0.0  0.0      0     0 ?        S    Oct08   0:00 [watchdogd]
+root         126  0.0  0.0      0     0 ?        S    Oct08   0:05 [kswapd0]
+root         127  0.0  0.0      0     0 ?        I<   Oct08   0:01 [kworker/0:1H-events_highpri]
+root         128  0.0  0.0      0     0 ?        S    Oct08   0:00 [ecryptfs-kthrea]
+root         130  0.0  0.0      0     0 ?        I<   Oct08   0:00 [kthrotld]
+root         131  0.0  0.0      0     0 ?        S    Oct08   0:00 [irq/123-pciehp]
+root         138  0.0  0.0      0     0 ?        I<   Oct08   0:00 [acpi_thermal_pm]
+root         140  0.0  0.0      0     0 ?        I<   Oct08   0:00 [vfio-irqfd-clea]
+root         143  0.0  0.0      0     0 ?        I<   Oct08   0:00 [mld]
+root         144  0.0  0.0      0     0 ?        I<   Oct08   0:00 [ipv6_addrconf]
+root         145  0.0  0.0      0     0 ?        I<   Oct08   0:01 [kworker/4:1H-events_highpri]
+root         154  0.0  0.0      0     0 ?        I<   Oct08   0:00 [kstrp]
+root         157  0.0  0.0      0     0 ?        I<   Oct08   0:00 [zswap-shrink]
+root         163  0.0  0.0      0     0 ?        I<   Oct08   0:00 [charger_manager]
+root         196  0.0  0.0      0     0 ?        I<   Oct08   0:01 [kworker/3:1H-events_highpri]
+root         217  0.0  0.0      0     0 ?        I<   Oct08   0:00 [nvme-wq]
+root         218  0.0  0.0      0     0 ?        I<   Oct08   0:00 [nvme-reset-wq]
+root         219  0.0  0.0      0     0 ?        I<   Oct08   0:00 [nvme-delete-wq]
+root         221  0.0  0.0      0     0 ?        I<   Oct08   0:00 [cryptd]
+root         226  0.0  0.0      0     0 ?        I<   Oct08   0:01 [kworker/1:1H-events_highpri]
+root         250  0.0  0.0      0     0 ?        S    Oct08   0:00 [card0-crtc0]
+root         251  0.0  0.0      0     0 ?        S    Oct08   0:00 [card0-crtc1]
+root         252  0.0  0.0      0     0 ?        S    Oct08   0:00 [card0-crtc2]
+root         253  0.0  0.0      0     0 ?        I<   Oct08   0:01 [kworker/2:1H-events_highpri]
+root         257  0.0  0.0      0     0 ?        I<   Oct08   0:02 [kworker/7:1H-events_highpri]
+root         286  0.0  0.0      0     0 ?        I<   Oct08   0:00 [raid5wq]
+root         348  0.0  0.0      0     0 ?        S    Oct08   0:07 [jbd2/nvme0n1p7-]
+root         349  0.0  0.0      0     0 ?        I<   Oct08   0:00 [ext4-rsv-conver]
+root         364  0.0  0.0      0     0 ?        I<   Oct08   0:01 [kworker/5:1H-events_highpri]
+root         395  0.0  0.0      0     0 ?        I<   Oct08   0:01 [kworker/6:1H-events_highpri]
+root         398  0.0  0.1 124620 28668 ?        S<s  Oct08   0:06 /lib/systemd/systemd-journald
+root         430  0.0  0.0  23676  6388 ?        Ss   Oct08   0:12 /lib/systemd/systemd-udevd
+root         473  0.0  0.0      0     0 ?        S    Oct08   0:00 [irq/136-shps-ir]
+root         474  0.0  0.0      0     0 ?        S    Oct08   0:00 [irq/140-shps-ir]
+root         475  0.0  0.0      0     0 ?        S    Oct08   0:00 [irq/141-shps-ir]
+root         493  0.0  0.0      0     0 ?        I<   Oct08   0:00 [ssam_cpltq]
+root         496  0.0  0.0      0     0 ?        S    Oct08   0:05 [ssam_serial_hub]
+root         497  0.0  0.0      0     0 ?        S    Oct08   0:04 [ssam_serial_hub]
+root         498  0.0  0.0      0     0 ?        S    Oct08   0:00 [irq/144-ipu3-im]
+root         499  0.0  0.0      0     0 ?        S    Oct08   0:00 [irq/156-ssam_wa]
+root         506  0.0  0.0      0     0 ?        I<   Oct08   0:00 [kdmflush]
+root         511  0.0  0.0      0     0 ?        I<   Oct08   0:00 [cfg80211]
+root         515  0.0  0.0      0     0 ?        I<   Oct08   0:00 [kcryptd_io/253:]
+root         516  0.0  0.0      0     0 ?        I<   Oct08   0:00 [kcryptd/253:0]
+root         517  0.0  0.0      0     0 ?        S    Oct08   0:00 [dmcrypt_write/2]
+root         540  0.0  0.0      0     0 ?        S    Oct08   0:00 [nv_queue]
+root         544  0.0  0.0      0     0 ?        S    Oct08   0:00 [nv_queue]
+systemd+     549  0.0  0.0  24300 12804 ?        Ss   Oct08   0:43 /lib/systemd/systemd-resolved
+systemd+     550  0.0  0.0  90260  5396 ?        Ssl  Oct08   0:00 /lib/systemd/systemd-timesyncd
+root         605  0.0  0.0      0     0 ?        S    Oct08   0:00 [nvidia-modeset/]
+root         611  0.0  0.0      0     0 ?        S    Oct08   0:00 [nvidia-modeset/]
+root         619  0.0  0.0      0     0 ?        S    Oct08   0:14 [irq/158-nvidia]
+root         623  0.0  0.0      0     0 ?        S    Oct08   0:57 [nv_queue]
+root         667  0.0  0.0 251656  9164 ?        Ssl  Oct08   0:02 /usr/lib/accountsservice/accounts-daemon
+root         668  0.0  0.0   2672  1964 ?        Ss   Oct08   0:24 /usr/sbin/acpid
+avahi        670  3.9  0.0  11692  6864 ?        Ss   Oct08  85:05 avahi-daemon: running [pop-os.local]
+root         671  0.0  0.0  19184  2888 ?        Ss   Oct08   0:00 /usr/sbin/cron -f
+root         673  0.0  0.0  40728 11588 ?        Ss   Oct08   0:04 /usr/sbin/cupsd -l
+message+     675  0.5  0.0  10616  6580 ?        Ss   Oct08  11:31 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         678  0.4  0.1 695644 26656 ?        Ssl  Oct08   9:25 /usr/sbin/NetworkManager --no-daemon
+root         682  0.0  0.0 231648  6052 ?        Ssl  Oct08   1:32 /usr/sbin/iio-sensor-proxy
+root         683  0.0  0.0   3888   876 ?        Ss   Oct08   0:26 /usr/bin/iptsd
+root         684  0.0  0.0  81960  3640 ?        Ssl  Oct08   0:12 /usr/sbin/irqbalance --foreground
+root         685  0.0  0.1  49096 19916 ?        Ss   Oct08   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root         690  0.0  0.0 239184 11700 ?        Ssl  Oct08   0:06 /usr/lib/policykit-1/polkitd --no-debug
+root         691  0.0  0.0 360288 10748 ?        Ssl  Oct08   0:06 /usr/bin/pop-upgrade daemon
+syslog       694  0.0  0.0 224356  4912 ?        Ssl  Oct08   0:02 /usr/sbin/rsyslogd -n -iNONE
+root         697  0.0  0.0 245484  6564 ?        Ssl  Oct08   0:00 /usr/libexec/switcheroo-control
+root         698  0.0  0.0  85596  5700 ?        Ss   Oct08   0:51 /usr/bin/system76-power daemon
+root         703  0.0  0.0  16880  7532 ?        Ss   Oct08   0:01 /lib/systemd/systemd-logind
+root         707  0.0  0.0 283676 10460 ?        Ssl  Oct08   0:58 /usr/sbin/thermald --systemd --dbus-enable --adaptive
+root         708  0.0  0.0 396708 14124 ?        Ssl  Oct08   0:00 /usr/lib/udisks2/udisksd
+root         710  0.0  0.0  14380  9600 ?        Ss   Oct08   2:09 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+avahi        716  0.0  0.0   8352   264 ?        S    Oct08   0:00 avahi-daemon: chroot helper
+root         747  0.0  0.1 183008 17208 ?        Ssl  Oct08   0:17 /usr/sbin/cups-browsed
+colord       769  0.0  0.0 259116 16224 ?        Ssl  Oct08   0:01 /usr/libexec/colord
+root         781  0.0  0.0 314520 11212 ?        Ssl  Oct08   0:00 /usr/sbin/ModemManager
+root         818  0.0  0.0 262524 10300 ?        Ssl  Oct08   0:11 /usr/lib/upower/upowerd
+root         840  0.0  0.0   8376  4936 ?        Ss   Oct08   0:00 /usr/lib/bluetooth/bluetoothd
+root         856  0.0  0.0      0     0 ?        S    Oct08   0:00 [UVM global queu]
+root         857  0.0  0.0      0     0 ?        S    Oct08   0:00 [UVM deferred re]
+root         859  0.0  0.0      0     0 ?        S    Oct08   0:00 [UVM Tools Event]
+nvidia-+     867  0.0  0.0   5208  1808 ?        Ss   Oct08   0:00 /usr/bin/nvidia-persistenced --user nvidia-persistenced --no-persistence-mode --verbose
+root         868  0.0  0.0 249376  8272 ?        Ssl  Oct08   0:00 /usr/sbin/gdm3
+root         908  0.0  0.0 178620  9292 ?        Sl   Oct08   0:00 gdm-session-worker [pam/gdm-launch-environment]
+gdm          921  0.0  0.0  18660  8968 ?        Ss   Oct08   0:00 /lib/systemd/systemd --user
+gdm          924  0.0  0.0 105544  2720 ?        S    Oct08   0:00 (sd-pam)
+gdm          945  0.0  0.1 1153996 17564 ?       S<sl Oct08   0:00 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+gdm          947  0.0  0.1 521112 23712 ?        SNsl Oct08   0:00 /usr/libexec/tracker-miner-fs
+gdm          948  0.0  0.0 173784  6392 tty1     Ssl+ Oct08   0:00 /usr/lib/gdm3/gdm-x-session dbus-run-session -- gnome-session --autostart /usr/share/gdm/greeter/autostart
+root         950  0.0  0.5 25594968 86012 tty1   Sl+  Oct08   0:01 /usr/lib/xorg/Xorg vt1 -displayfd 3 -auth /run/user/110/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+gdm          953  0.0  0.0   7392  4060 ?        Ss   Oct08   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+rtkit        956  0.0  0.0 152940  2908 ?        SNsl Oct08   0:01 /usr/libexec/rtkit-daemon
+gdm          957  0.0  0.0 249460  7384 ?        Ssl  Oct08   0:00 /usr/libexec/gvfsd
+gdm          964  0.0  0.0 316528  8096 ?        Sl   Oct08   0:00 /usr/libexec/gvfsd-fuse /run/user/110/gvfs -f -o big_writes
+gdm          983  0.0  0.0 327168 11088 ?        Ssl  Oct08   0:00 /usr/libexec/gvfs-udisks2-volume-monitor
+gdm          988  0.0  0.0 326488  8936 ?        Ssl  Oct08   0:04 /usr/libexec/gvfs-afc-volume-monitor
+gdm          993  0.0  0.0 245640  5892 ?        Ssl  Oct08   0:00 /usr/libexec/gvfs-goa-volume-monitor
+gdm          998  0.0  0.2 554580 33972 ?        Sl   Oct08   0:00 /usr/libexec/goa-daemon
+gdm         1006  0.0  0.0 328372 11116 ?        Sl   Oct08   0:00 /usr/libexec/goa-identity-service
+gdm         1011  0.0  0.0 245464  5712 ?        Ssl  Oct08   0:00 /usr/libexec/gvfs-mtp-volume-monitor
+gdm         1016  0.0  0.0 247876  6164 ?        Ssl  Oct08   0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+gdm         1038  0.0  0.0   5300  1044 tty1     S+   Oct08   0:00 dbus-run-session -- gnome-session --autostart /usr/share/gdm/greeter/autostart
+gdm         1039  0.0  0.0   7568  4292 tty1     S+   Oct08   0:00 dbus-daemon --nofork --print-address 4 --session
+gdm         1040  0.0  0.0 495820 15132 tty1     Sl+  Oct08   0:00 /usr/libexec/gnome-session-binary --systemd --autostart /usr/share/gdm/greeter/autostart
+gdm         1044  0.0  0.0 309584  8868 tty1     Sl+  Oct08   0:00 /usr/libexec/at-spi-bus-launcher
+gdm         1049  0.0  0.0   7116  3612 tty1     S+   Oct08   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+gdm         1073  0.1 24.6 8054904 4021448 tty1  Sl+  Oct08   2:39 /usr/bin/gnome-shell
+gdm         1093  0.0  0.0 324292 10020 tty1     Sl   Oct08   0:00 ibus-daemon --panel disable --xim
+gdm         1096  0.0  0.0 176052  8524 tty1     Sl   Oct08   0:00 /usr/libexec/ibus-memconf
+gdm         1099  0.0  0.1 200200 16640 tty1     Sl   Oct08   0:00 /usr/libexec/ibus-x11 --kill-daemon
+gdm         1101  0.0  0.0 249852  8636 tty1     Sl+  Oct08   0:00 /usr/libexec/ibus-portal
+gdm         1111  0.0  0.0 162840  7448 tty1     Sl+  Oct08   0:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+gdm         1115  0.0  0.0 245360  4496 tty1     Sl+  Oct08   0:00 /usr/libexec/xdg-permission-store
+gdm         1130  0.0  0.1 2940024 24800 tty1    Sl+  Oct08   0:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+gdm         1141  0.1  0.0 478636 12716 tty1     Sl+  Oct08   2:38 /usr/libexec/gsd-sharing
+gdm         1143  0.0  0.0 345044 15360 tty1     Sl+  Oct08   0:00 /usr/libexec/gsd-wacom
+gdm         1144  0.0  0.1 581452 20028 tty1     Sl+  Oct08   0:01 /usr/libexec/gsd-color
+gdm         1145  0.0  0.1 348044 17612 tty1     Sl+  Oct08   0:00 /usr/libexec/gsd-keyboard
+gdm         1150  0.0  0.0 176176  8444 tty1     Sl   Oct08   0:00 /usr/libexec/ibus-engine-simple
+gdm         1151  0.0  0.0 258252 11364 tty1     Sl+  Oct08   0:01 /usr/libexec/gsd-print-notifications
+gdm         1152  0.0  0.0 466860  5848 tty1     Sl+  Oct08   0:00 /usr/libexec/gsd-rfkill
+gdm         1153  0.0  0.0 327680 10292 tty1     Sl+  Oct08   0:00 /usr/libexec/gsd-smartcard
+gdm         1154  0.0  0.0 383972 16060 tty1     Sl+  Oct08   0:00 /usr/libexec/gsd-datetime
+gdm         1165  0.0  0.4 709752 78756 tty1     Sl+  Oct08   1:08 /usr/libexec/gsd-media-keys
+gdm         1167  0.0  0.0 245272  6040 tty1     Sl+  Oct08   0:00 /usr/libexec/gsd-screensaver-proxy
+gdm         1168  0.0  0.0 331388 10840 tty1     Sl+  Oct08   0:00 /usr/libexec/gsd-sound
+gdm         1169  0.0  0.0 323520  8792 tty1     Sl+  Oct08   0:00 /usr/libexec/gsd-a11y-settings
+gdm         1171  0.0  0.0 323804  9176 tty1     Sl+  Oct08   0:02 /usr/libexec/gsd-housekeeping
+gdm         1174  0.0  0.1 618444 23912 tty1     Sl+  Oct08   1:03 /usr/libexec/gsd-power
+gdm         1192  0.0  0.0 351952 13676 tty1     Sl+  Oct08   0:00 /usr/libexec/gsd-printer
+gdm         1230  0.0  0.0 156100  5648 tty1     Sl+  Oct08   0:00 /usr/libexec/dconf-service
+root        1393  0.0  0.0 326496 10576 ?        Sl   Oct08   0:00 gdm-session-worker [pam/gdm-password]
+sedupug+    1409  0.0  0.0  19132  9444 ?        Ss   Oct08   0:02 /lib/systemd/systemd --user
+sedupug+    1410  0.0  0.0 171072  2972 ?        S    Oct08   0:00 (sd-pam)
+sedupug+    1420  0.9  0.1 3327928 21672 ?       S<sl Oct08  21:40 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+sedupug+    1422  0.0  0.1 521292 24144 ?        SNsl Oct08   0:01 /usr/libexec/tracker-miner-fs
+sedupug+    1429  0.0  0.0  10380  7160 ?        Ss   Oct08   0:18 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+sedupug+    1432  0.0  0.0 250052  7460 ?        Sl   Oct08   0:05 /usr/bin/gnome-keyring-daemon --daemonize --login
+sedupug+    1436  0.0  0.0 249560  7560 ?        Ssl  Oct08   0:00 /usr/libexec/gvfsd
+sedupug+    1442  0.0  0.0 382064  8308 ?        Sl   Oct08   0:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+sedupug+    1461  0.0  0.0 327172 11100 ?        Ssl  Oct08   0:00 /usr/libexec/gvfs-udisks2-volume-monitor
+sedupug+    1470  0.0  0.0 326488  8756 ?        Ssl  Oct08   0:04 /usr/libexec/gvfs-afc-volume-monitor
+sedupug+    1475  0.0  0.0 250012  9140 ?        Ssl  Oct08   0:00 /usr/libexec/gvfs-goa-volume-monitor
+sedupug+    1479  0.0  0.3 631688 63680 ?        SLl  Oct08   0:15 /usr/libexec/goa-daemon
+root        1491  0.0  0.0      0     0 ?        S<   Oct08   0:00 [krfcommd]
+sedupug+    1498  0.0  0.0 328372 11436 ?        Sl   Oct08   0:00 /usr/libexec/goa-identity-service
+sedupug+    1508  0.0  0.0 245464  5748 ?        Ssl  Oct08   0:00 /usr/libexec/gvfs-mtp-volume-monitor
+sedupug+    1513  0.0  0.0 247872  6360 ?        Ssl  Oct08   0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+sedupug+    1544  0.0  0.0 173784  6424 tty2     Ssl+ Oct08   0:00 /usr/lib/gdm3/gdm-x-session --run-script env GNOME_SHELL_SESSION_MODE=pop /usr/bin/gnome-session --systemd --session=pop
+root        1549  2.1  1.3 26249008 219368 tty2  Sl+  Oct08  46:20 /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+sedupug+    2303  0.0  0.0 200556 13992 tty2     Sl+  Oct08   0:00 /usr/libexec/gnome-session-binary --systemd --systemd --session=pop
+sedupug+    2326  0.0  0.0 249656  7612 ?        Sl   Oct08   0:00 /usr/bin/gnome-keyring-daemon --start --foreground --components=secrets
+sedupug+    2397  0.0  0.0   6040   104 ?        Ss   Oct08   0:00 /usr/bin/ssh-agent /usr/bin/im-launch env GNOME_SHELL_SESSION_MODE=pop /usr/bin/gnome-session --systemd --session=pop
+sedupug+    2417  0.0  0.0 309828  9408 ?        Ssl  Oct08   0:00 /usr/libexec/at-spi-bus-launcher
+sedupug+    2422  0.0  0.0   7380  3996 ?        S    Oct08   0:02 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+sedupug+    2430  0.0  0.0  99828  4120 ?        Ssl  Oct08   0:00 /usr/libexec/gnome-session-ctl --monitor
+sedupug+    2436  0.0  0.0 570136 15844 ?        Ssl  Oct08   0:01 /usr/libexec/gnome-session-binary --systemd-service --session=pop
+sedupug+    2450  2.4  1.9 5095676 314276 ?      Ssl  Oct08  52:21 /usr/bin/gnome-shell
+sedupug+    2476  0.3  0.0 399364 11292 ?        Sl   Oct08   6:59 ibus-daemon --panel disable --xim
+sedupug+    2480  0.0  0.0 176320  8964 ?        Sl   Oct08   0:00 /usr/libexec/ibus-memconf
+sedupug+    2481  0.0  0.1 360956 29816 ?        Sl   Oct08   1:32 /usr/libexec/ibus-extension-gtk3
+sedupug+    2485  0.0  0.1 357016 25384 ?        Sl   Oct08   0:02 /usr/libexec/ibus-x11 --kill-daemon
+sedupug+    2487  0.0  0.0 250848 10180 ?        Sl   Oct08   0:04 /usr/libexec/ibus-portal
+sedupug+    2500  0.0  0.0 245360  4544 ?        Ssl  Oct08   0:00 /usr/libexec/xdg-permission-store
+sedupug+    2503  0.0  0.1 729556 18392 ?        Sl   Oct08   0:00 /usr/libexec/gnome-shell-calendar-server
+sedupug+    2508  0.0  0.0 162840  7472 ?        Sl   Oct08   0:22 /usr/libexec/at-spi2-registryd --use-gnome-session
+sedupug+    2519  0.0  0.1 1083952 31820 ?       Ssl  Oct08   0:01 /usr/libexec/evolution-source-registry
+sedupug+    2527  0.0  0.0 156332  5980 ?        Sl   Oct08   0:00 /usr/libexec/dconf-service
+geoclue     2530  0.2  0.1 913172 23388 ?        Ssl  Oct08   6:17 /usr/libexec/geoclue
+sedupug+    2531  0.0  0.0 172080  6268 ?        Ssl  Oct08   0:00 /usr/libexec/gvfsd-metadata
+sedupug+    2542  0.0  0.2 1540180 37688 ?       Ssl  Oct08   0:03 /usr/libexec/evolution-calendar-factory
+sedupug+    2560  0.0  0.3 1232484 58824 ?       Ssl  Oct08   0:01 /usr/libexec/evolution-addressbook-factory
+sedupug+    2576  0.0  0.1 2940280 26016 ?       Sl   Oct08   0:01 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+sedupug+    2591  0.0  0.0 323656  9040 ?        Ssl  Oct08   0:00 /usr/libexec/gsd-a11y-settings
+sedupug+    2592  0.0  0.1 982880 28352 ?        Ssl  Oct08   0:05 /usr/libexec/gsd-color
+sedupug+    2593  0.0  0.1 464564 25112 ?        Ssl  Oct08   0:00 /usr/libexec/gsd-datetime
+sedupug+    2596  0.0  0.0 323900  9476 ?        Ssl  Oct08   0:03 /usr/libexec/gsd-housekeeping
+sedupug+    2598  0.0  0.1 357260 26072 ?        Ssl  Oct08   0:02 /usr/libexec/gsd-keyboard
+sedupug+    2599  0.0  0.5 713712 82280 ?        Ssl  Oct08   1:14 /usr/libexec/gsd-media-keys
+sedupug+    2601  0.0  0.1 771916 29280 ?        Ssl  Oct08   1:25 /usr/libexec/gsd-power
+sedupug+    2603  0.0  0.0 258256 11436 ?        Ssl  Oct08   0:01 /usr/libexec/gsd-print-notifications
+sedupug+    2604  0.0  0.0 466860  6012 ?        Ssl  Oct08   0:00 /usr/libexec/gsd-rfkill
+sedupug+    2605  0.0  0.0 245400  6064 ?        Ssl  Oct08   0:00 /usr/libexec/gsd-screensaver-proxy
+sedupug+    2606  0.1  0.0 478888 12748 ?        Ssl  Oct08   2:43 /usr/libexec/gsd-sharing
+sedupug+    2607  0.0  0.0 327816 10248 ?        Ssl  Oct08   0:00 /usr/libexec/gsd-smartcard
+sedupug+    2609  0.0  0.0 331524 10948 ?        Ssl  Oct08   0:00 /usr/libexec/gsd-sound
+sedupug+    2611  0.0  0.0 397616  9304 ?        Ssl  Oct08   0:00 /usr/libexec/gsd-usb-protection
+sedupug+    2613  0.0  0.1 357200 25160 ?        Ssl  Oct08   0:02 /usr/libexec/gsd-wacom
+sedupug+    2616  0.0  0.0 328008 10392 ?        Ssl  Oct08   0:00 /usr/libexec/gsd-wwan
+sedupug+    2620  0.0  0.1 358088 27564 ?        Ssl  Oct08   0:03 /usr/libexec/gsd-xsettings
+sedupug+    2648  0.0  0.0 176584  9492 ?        Sl   Oct08   1:57 /usr/libexec/ibus-engine-simple
+sedupug+    2664  0.0  0.1 271112 22720 ?        Sl   Oct08   0:00 /usr/bin/python3 /usr/lib/hidpi-daemon/hidpi-notification
+sedupug+    2667  0.0  0.3 798720 57392 ?        Sl   Oct08   0:03 /usr/libexec/evolution-data-server/evolution-alarm-notify
+sedupug+    2675  0.0  0.0 231800  5612 ?        Sl   Oct08   0:00 /usr/libexec/gsd-disk-utility-notify
+sedupug+    2713  0.0  1.1 7308924 181712 ?      Sl   Oct08   1:52 /usr/share/teams/teams --disable-namespace-sandbox --disable-setuid-sandbox
+sedupug+    2721  0.0  0.0 351952 14108 ?        Sl   Oct08   0:00 /usr/libexec/gsd-printer
+sedupug+    2788  0.0  0.1 213592 29908 ?        S    Oct08   0:00 /usr/share/teams/teams --type=zygote --no-zygote-sandbox
+sedupug+    2789  0.0  0.1 213592 30920 ?        S    Oct08   0:00 /usr/share/teams/teams --type=zygote
+root        3198  0.0  0.2 120940 42616 ?        S    Oct08   0:00 /usr/bin/python3 /usr/lib/pop-transition/service.py
+sedupug+    3561  0.0  0.6 1116872 100996 ?      Sl   Oct08   0:58 /usr/share/teams/teams --type=gpu-process --field-trial-handle=15666639720916893817,2552201281516397290,131072 --enable-features=WebComponentsV0Enabled --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --enable-crash-reporter=c8fcb3a2-f72a-470a-8caa-503ea8f1fa6a,no_channel --global-crash-keys=c8fcb3a2-f72a-470a-8caa-503ea8f1fa6a,no_channel,_companyName=Microsoft,_productName=com.microsoft.teams.linux,_version=1.4.00.13653 --gpu-preferences=MAAAAAAAAAAgAAAQAAAAAAAAAAAAAAAAAABgAAAAAAAQAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA= --shared-files
+sedupug+    3643  0.0  0.3 946136 50972 ?        Sl   Oct08   0:45 /usr/share/teams/teams --type=utility --utility-sub-type=network.mojom.NetworkService --field-trial-handle=15666639720916893817,2552201281516397290,131072 --enable-features=WebComponentsV0Enabled --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --lang=en-US --service-sandbox-type=network --enable-crash-reporter=c8fcb3a2-f72a-470a-8caa-503ea8f1fa6a,no_channel --global-crash-keys=c8fcb3a2-f72a-470a-8caa-503ea8f1fa6a,no_channel,_companyName=Microsoft,_productName=com.microsoft.teams.linux,_version=1.4.00.13653 --ms-teams-less-cors=522133263 --shared-files=v8_snapshot_data:100
+sedupug+    3673  0.0  0.0 401044 10412 ?        Sl   Oct08   0:00 /usr/libexec/gvfsd-trash --spawner :1.3 /org/gtk/gvfs/exec_spaw/0
+sedupug+    3723  0.0  0.4 5548520 75228 ?       Sl   Oct08   0:00 /usr/share/teams/teams --type=renderer --autoplay-policy=no-user-gesture-required --disable-background-timer-throttling --field-trial-handle=15666639720916893817,2552201281516397290,131072 --enable-features=WebComponentsV0Enabled --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --lang=en-US --enable-crash-reporter=c8fcb3a2-f72a-470a-8caa-503ea8f1fa6a,no_channel --global-crash-keys=c8fcb3a2-f72a-470a-8caa-503ea8f1fa6a,no_channel,_companyName=Microsoft,_productName=com.microsoft.teams.linux,_version=1.4.00.13653 --ms-teams-less-cors=522133263 --app-path=/usr/share/teams/resources/app.asar --enable-sandbox --native-window-open --preload=/usr/share/teams/resources/app.asar/lib/renderer/notifications/preload_notifications.js --background-color=#fff --enable-spellcheck --enable-websql --disable-electron-site-instance-overrides --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=6 --no-v8-untrusted-code-mitigations --shared-files=v8_snapshot_data:100 --msteams-process-type=notificationsManager
+sedupug+    3737  0.5  3.2 14278572 526296 ?     Sl   Oct08  12:39 /usr/share/teams/teams --type=renderer --autoplay-policy=no-user-gesture-required --disable-background-timer-throttling --field-trial-handle=15666639720916893817,2552201281516397290,131072 --enable-features=WebComponentsV0Enabled --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --lang=en-US --enable-crash-reporter=c8fcb3a2-f72a-470a-8caa-503ea8f1fa6a,no_channel --global-crash-keys=c8fcb3a2-f72a-470a-8caa-503ea8f1fa6a,no_channel,_companyName=Microsoft,_productName=com.microsoft.teams.linux,_version=1.4.00.13653 --ms-teams-less-cors=522133263 --app-path=/usr/share/teams/resources/app.asar --webview-tag --enable-sandbox --native-window-open --preload=/usr/share/teams/resources/app.asar/lib/renderer/preload.js --background-color=#fff --enable-spellcheck --enable-websql --ms-allow-videorenderer --disable-electron-site-instance-overrides --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=4 --no-v8-untrusted-code-mitigations --shared-files=v8_snapshot_data:100 --msteams-process-type=mainWindow
+sedupug+    3738  0.0  0.0 218272  9708 ?        S    Oct08   0:00 /usr/share/teams/teams --type=renderer --autoplay-policy=no-user-gesture-required --disable-background-timer-throttling --field-trial-handle=15666639720916893817,2552201281516397290,131072 --enable-features=WebComponentsV0Enabled --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --lang=en-US --enable-crash-reporter=c8fcb3a2-f72a-470a-8caa-503ea8f1fa6a,no_channel --global-crash-keys=c8fcb3a2-f72a-470a-8caa-503ea8f1fa6a,no_channel,_companyName=Microsoft,_productName=com.microsoft.teams.linux,_version=1.4.00.13653 --ms-teams-less-cors=522133263 --app-path=/usr/share/teams/resources/app.asar --webview-tag --enable-sandbox --native-window-open --preload=/usr/share/teams/resources/app.asar/lib/renderer/preload.js --background-color=#fff --enable-spellcheck --enable-websql --ms-allow-videorenderer --disable-electron-site-instance-overrides --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=4 --no-v8-untrusted-code-mitigations --shared-files=v8_snapshot_data:100 --msteams-process-type=mainWindow
+sedupug+    3766  0.0  0.2 997428 36176 ?        Sl   Oct08   0:14 /usr/share/teams/teams --type=utility --utility-sub-type=audio.mojom.AudioService --field-trial-handle=15666639720916893817,2552201281516397290,131072 --enable-features=WebComponentsV0Enabled --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --lang=en-US --service-sandbox-type=audio --enable-crash-reporter=c8fcb3a2-f72a-470a-8caa-503ea8f1fa6a,no_channel --global-crash-keys=c8fcb3a2-f72a-470a-8caa-503ea8f1fa6a,no_channel,_companyName=Microsoft,_productName=com.microsoft.teams.linux,_version=1.4.00.13653 --ms-teams-less-cors=522133263 --shared-files=v8_snapshot_data:100
+sedupug+    3871  0.0  0.6 5565140 106560 ?      Sl   Oct08   0:10 /usr/share/teams/teams --type=renderer --autoplay-policy=no-user-gesture-required --disable-background-timer-throttling --field-trial-handle=15666639720916893817,2552201281516397290,131072 --enable-features=WebComponentsV0Enabled --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --lang=en-US --enable-crash-reporter=c8fcb3a2-f72a-470a-8caa-503ea8f1fa6a,no_channel --global-crash-keys=c8fcb3a2-f72a-470a-8caa-503ea8f1fa6a,no_channel,_companyName=Microsoft,_productName=com.microsoft.teams.linux,_version=1.4.00.13653 --ms-teams-less-cors=522133263 --app-path=/usr/share/teams/resources/app.asar --enable-sandbox --native-window-open --preload=/usr/share/teams/resources/app.asar/lib/renderer/experienceRenderer/preload_webview.js --background-color=#fff --guest-instance-id=4 --enable-blink-features --disable-blink-features --node-integration-in-subframes --enable-spellcheck --enable-websql --ms-allow-videorenderer --disable-electron-site-instance-overrides --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=9 --no-v8-untrusted-code-mitigations --shared-files=v8_snapshot_data:100 --msteams-process-type=experience-renderer
+sedupug+    3872  0.0  0.0 218276  9720 ?        S    Oct08   0:00 /usr/share/teams/teams --type=renderer --autoplay-policy=no-user-gesture-required --disable-background-timer-throttling --field-trial-handle=15666639720916893817,2552201281516397290,131072 --enable-features=WebComponentsV0Enabled --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --lang=en-US --enable-crash-reporter=c8fcb3a2-f72a-470a-8caa-503ea8f1fa6a,no_channel --global-crash-keys=c8fcb3a2-f72a-470a-8caa-503ea8f1fa6a,no_channel,_companyName=Microsoft,_productName=com.microsoft.teams.linux,_version=1.4.00.13653 --ms-teams-less-cors=522133263 --app-path=/usr/share/teams/resources/app.asar --enable-sandbox --native-window-open --preload=/usr/share/teams/resources/app.asar/lib/renderer/experienceRenderer/preload_webview.js --background-color=#fff --guest-instance-id=4 --enable-blink-features --disable-blink-features --node-integration-in-subframes --enable-spellcheck --enable-websql --ms-allow-videorenderer --disable-electron-site-instance-overrides --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=9 --no-v8-untrusted-code-mitigations --shared-files=v8_snapshot_data:100 --msteams-process-type=experience-renderer
+sedupug+    3885  0.2  0.6 8490324 99748 ?       Sl   Oct08   5:47 /usr/share/teams/teams --type=renderer --autoplay-policy=no-user-gesture-required --disable-background-timer-throttling --field-trial-handle=15666639720916893817,2552201281516397290,131072 --enable-features=WebComponentsV0Enabled --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --lang=en-US --enable-crash-reporter=c8fcb3a2-f72a-470a-8caa-503ea8f1fa6a,no_channel --global-crash-keys=c8fcb3a2-f72a-470a-8caa-503ea8f1fa6a,no_channel,_companyName=Microsoft,_productName=com.microsoft.teams.linux,_version=1.4.00.13653 --ms-teams-less-cors=522133263 --app-path=/usr/share/teams/resources/app.asar --no-sandbox --no-zygote --preload=/usr/share/teams/resources/app.asar/lib/pluginhost/preload.js --context-isolation --background-color=#fff --enable-spellcheck --enable-websql --disable-electron-site-instance-overrides --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=10 --no-v8-untrusted-code-mitigations --shared-files=v8_snapshot_data:100 --msteams-process-type=pluginHost
+sedupug+    4518  0.0  0.3 935076 50596 ?        Sl   Oct08   0:04 /usr/bin/gnome-calendar --gapplication-service
+sedupug+    4586  0.0  2.3 2243120 380056 ?      Sl   Oct08   0:29 io.elementary.appcenter -s
+sedupug+    4670  0.0  0.2 478072 40204 ?        SLl  Oct08   0:03 /usr/bin/seahorse --gapplication-service
+sedupug+    4720  0.4  0.8 38329428 133680 ?     SLl  Oct08  10:46 /usr/share/code/code --unity-launch
+sedupug+    4724  0.0  0.1 205392 24792 ?        S    Oct08   0:00 /usr/share/code/code --type=zygote --no-zygote-sandbox
+sedupug+    4725  0.0  0.1 205392 24636 ?        S    Oct08   0:00 /usr/share/code/code --type=zygote
+sedupug+    4727  0.0  0.0 205392  7264 ?        S    Oct08   0:00 /usr/share/code/code --type=zygote
+sedupug+    4759  2.0  0.6 613648 105552 ?       Sl   Oct08  43:41 /usr/share/code/code --type=gpu-process --field-trial-handle=7785441499599933110,5896161091385939148,131072 --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --disable-color-correct-rendering --enable-crash-reporter=d2917daa-6266-46c1-8269-6e54f8dcb8a4,no_channel --global-crash-keys=d2917daa-6266-46c1-8269-6e54f8dcb8a4,no_channel,_companyName=Microsoft,_productName=VSCode,_version=1.60.2 --user-data-dir=/home/sedupuganti/.config/Code --gpu-preferences=UAAAAAAAAAAgAAAQAAAAAAAAAAAAAAAAAABgAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAACAAAAAAAAAA= --shared-files
+sedupug+    4766  0.0  0.2 265100 32848 ?        Sl   Oct08   0:10 /usr/share/code/code --type=utility --utility-sub-type=network.mojom.NetworkService --field-trial-handle=7785441499599933110,5896161091385939148,131072 --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --lang=en-US --service-sandbox-type=none --enable-crash-reporter=d2917daa-6266-46c1-8269-6e54f8dcb8a4,no_channel --global-crash-keys=d2917daa-6266-46c1-8269-6e54f8dcb8a4,no_channel,_companyName=Microsoft,_productName=VSCode,_version=1.60.2 --user-data-dir=/home/sedupuganti/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --shared-files=v8_context_snapshot_data:100
+sedupug+    4782  3.9  2.1 57219804 346792 ?     Sl   Oct08  85:11 /usr/share/code/code --type=renderer --disable-color-correct-rendering --field-trial-handle=7785441499599933110,5896161091385939148,131072 --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --lang=en-US --enable-crash-reporter=d2917daa-6266-46c1-8269-6e54f8dcb8a4,no_channel --global-crash-keys=d2917daa-6266-46c1-8269-6e54f8dcb8a4,no_channel,_companyName=Microsoft,_productName=VSCode,_version=1.60.2 --user-data-dir=/home/sedupuganti/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --app-path=/usr/share/code/resources/app --no-sandbox --no-zygote --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=5 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100 --vscode-window-config=vscode:db3e4e54-81c8-4692-b506-eda9128c1764
+sedupug+    4859  0.3  0.9 38057380 157756 ?     Sl   Oct08   7:43 /usr/share/code/code --inspect-port=0 /usr/share/code/resources/app/out/bootstrap-fork --type=extensionHost --skipWorkspaceStorageLock
+sedupug+    4875  0.0  0.6 38144596 98644 ?      Sl   Oct08   0:56 /usr/share/code/code --type=renderer --disable-color-correct-rendering --field-trial-handle=7785441499599933110,5896161091385939148,131072 --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --lang=en-US --enable-crash-reporter=d2917daa-6266-46c1-8269-6e54f8dcb8a4,no_channel --global-crash-keys=d2917daa-6266-46c1-8269-6e54f8dcb8a4,no_channel,_companyName=Microsoft,_productName=VSCode,_version=1.60.2 --user-data-dir=/home/sedupuganti/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --app-path=/usr/share/code/resources/app --no-sandbox --no-zygote --disable-blink-features=Auxclick --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=7 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100 --vscode-window-config=vscode:c3e12b45-9e3c-472f-a4fa-9c9b63f16770
+sedupug+    4905  0.0  0.2 38020708 47844 ?      Sl   Oct08   0:05 /usr/share/code/code /usr/share/code/resources/app/out/bootstrap-fork --type=ptyHost
+sedupug+    4955  0.2  0.4 1679644 67052 ?       Sl   Oct08   5:04 /home/sedupuganti/.vscode/extensions/ms-vscode.cpptools-1.6.0/bin/cpptools
+sedupug+    5040  0.2  0.9 1124712 152708 ?      Sl   Oct08   4:56 /home/sedupuganti/.vscode/extensions/ms-vscode.cpptools-1.6.0/bin/cpptools-srv 4955 {AD297257-7FC8-4BCC-8DB8-09EA9D3308BE}
+sedupug+    5297  4.7  8.4 6610884 1370704 ?     Sl   Oct08 102:35 /usr/lib/firefox/firefox
+sedupug+    5367  0.0  0.1 192220 30128 ?        Sl   Oct08   0:00 /usr/lib/firefox/firefox -contentproc -parentBuildID 20210927210923 -prefsLen 1 -prefMapSize 244496 -appdir /usr/lib/firefox/browser 5297 true socket
+sedupug+    5402  0.1  0.8 2514960 143280 ?      Sl   Oct08   2:47 /usr/lib/firefox/firefox -contentproc -childID 1 -isForBrowser -prefsLen 117 -prefMapSize 244496 -jsInit 286204 -parentBuildID 20210927210923 -appdir /usr/lib/firefox/browser 5297 true tab
+sedupug+    5456  0.8  3.4 3385908 560252 ?      Sl   Oct08  17:43 /usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser -prefsLen 546 -prefMapSize 244496 -jsInit 286204 -parentBuildID 20210927210923 -appdir /usr/lib/firefox/browser 5297 true tab
+sedupug+    5488  0.1  0.9 27786544 150656 ?     Sl   Oct08   3:19 /usr/lib/firefox/firefox -contentproc -childID 3 -isForBrowser -prefsLen 6069 -prefMapSize 244496 -jsInit 286204 -parentBuildID 20210927210923 -appdir /usr/lib/firefox/browser 5297 true tab
+sedupug+    5571  1.9  3.9 3522200 651136 ?      Rl   Oct08  41:28 /usr/lib/firefox/firefox -contentproc -childID 4 -isForBrowser -prefsLen 6712 -prefMapSize 244496 -jsInit 286204 -parentBuildID 20210927210923 -appdir /usr/lib/firefox/browser 5297 true tab
+sedupug+    5656  0.0  0.3 289012 53064 ?        Sl   Oct08   0:32 /usr/lib/firefox/firefox -contentproc -parentBuildID 20210927210923 -prefsLen 9367 -prefMapSize 244496 -appdir /usr/lib/firefox/browser 5297 true rdd
+sedupug+    5694  0.3  0.7 631912 119828 ?       Ssl  Oct08   7:12 /usr/libexec/gnome-terminal-server
+sedupug+    5763  0.0  0.0  20776  4952 pts/0    Ss   Oct08   0:01 bash
+sedupug+    6772  1.8  6.2 3742300 1025196 ?     Sl   Oct08  40:28 /usr/lib/firefox/firefox -contentproc -childID 7 -isForBrowser -prefsLen 9556 -prefMapSize 244496 -jsInit 286204 -parentBuildID 20210927210923 -appdir /usr/lib/firefox/browser 5297 true tab
+sedupug+    7204  0.4  3.0 3187860 493020 ?      Sl   Oct08   9:13 /usr/lib/firefox/firefox -contentproc -childID 9 -isForBrowser -prefsLen 9556 -prefMapSize 244496 -jsInit 286204 -parentBuildID 20210927210923 -appdir /usr/lib/firefox/browser 5297 true tab
+sedupug+   10053  0.2  1.8 2963204 308392 ?      Sl   Oct08   4:24 /usr/lib/firefox/firefox -contentproc -childID 12 -isForBrowser -prefsLen 10018 -prefMapSize 244496 -jsInit 286204 -parentBuildID 20210927210923 -appdir /usr/lib/firefox/browser 5297 true tab
+sedupug+   10178  0.4  2.0 3003112 328760 ?      Sl   Oct08   8:34 /usr/lib/firefox/firefox -contentproc -childID 13 -isForBrowser -prefsLen 10018 -prefMapSize 244496 -jsInit 286204 -parentBuildID 20210927210923 -appdir /usr/lib/firefox/browser 5297 true tab
+sedupug+   11743  0.6  3.3 3364020 548400 ?      Sl   Oct08  13:30 /usr/lib/firefox/firefox -contentproc -childID 14 -isForBrowser -prefsLen 9934 -prefMapSize 244496 -jsInit 286204 -parentBuildID 20210927210923 -appdir /usr/lib/firefox/browser 5297 true tab
+sedupug+   14580  1.0  4.1 3460220 672712 ?      Sl   Oct08  19:31 /usr/lib/firefox/firefox -contentproc -childID 17 -isForBrowser -prefsLen 10474 -prefMapSize 244496 -jsInit 286204 -parentBuildID 20210927210923 -appdir /usr/lib/firefox/browser 5297 true tab
+sedupug+   15698  0.0  0.4 874240 75816 ?        Sl   Oct08   0:12 /usr/bin/nautilus --gapplication-service
+sedupug+   16776  0.0  0.5 1106176 87308 ?       Sl   Oct08   0:10 /home/sedupuganti/.vscode/extensions/ms-vscode.cpptools-1.6.0/bin/cpptools-srv 4955 {453AD5DA-B37E-41AD-B98B-EE8138E287F6}
+sedupug+   20160  0.2  0.7 1046856 120180 ?      Sl   Oct08   4:56 gnome-control-center wifi
+sedupug+   20604  0.0  0.0 360096  5708 ?        Sl   Oct08   0:08 /usr/lib/speech-dispatcher-modules/sd_generic /etc/speech-dispatcher/modules/mary-generic.conf
+sedupug+   20613  0.0  0.0 360064  5632 ?        Sl   Oct08   0:08 /usr/lib/speech-dispatcher-modules/sd_dummy /etc/speech-dispatcher/modules/dummy.conf
+sedupug+   20616  0.0  0.0 460136  7740 ?        Sl   Oct08   0:08 /usr/lib/speech-dispatcher-modules/sd_espeak-ng /etc/speech-dispatcher/modules/espeak-ng.conf
+sedupug+   20622  0.0  0.0 169496  2264 ?        Ssl  Oct08   0:00 /usr/bin/speech-dispatcher --spawn --communication-method unix_socket --socket-path /run/user/1000/speech-dispatcher/speechd.sock
+sedupug+   21053  0.0  1.8 1590544 294248 ?      Sl   Oct08   0:09 evince /home/sedupuganti/Downloads/PA1_Report-1.pdf
+sedupug+   21060  0.0  0.0 156056  5372 ?        Sl   Oct08   0:00 /usr/libexec/evinced
+sedupug+   22049  0.0  0.0  20776  5152 pts/1    Ss+  Oct08   0:00 bash
+root       26106  0.0  0.0      0     0 ?        I<   Oct08   0:00 [MWIFIEX_WORK_QU]
+root       26107  0.0  0.0      0     0 ?        I<   Oct08   0:00 [MWIFIEX_RX_WORK]
+root       26121  0.0  0.0      0     0 ?        I<   Oct08   0:00 [MWIFIEX_DFS_CAC]
+root       26122  0.0  0.0      0     0 ?        I<   Oct08   0:00 [MWIFIEX_DFS_CHS]
+sedupug+   30443  0.0  0.0 401336 10620 ?        Sl   Oct08   0:01 /usr/libexec/gvfsd-network --spawner :1.3 /org/gtk/gvfs/exec_spaw/1
+sedupug+   30455  0.0  0.0 324868  8272 ?        Sl   Oct08   0:00 /usr/libexec/gvfsd-dnssd --spawner :1.3 /org/gtk/gvfs/exec_spaw/3
+root       36476  0.0  0.0      0     0 ?        I    13:10   0:13 [kworker/2:1-events]
+root       36739  0.0  0.0      0     0 ?        S    13:38   0:00 [irq/142-mei_me]
+root       36740  0.0  0.0      0     0 ?        S    13:38   0:00 [irq/143-mei_me]
+root       36775  0.0  0.0      0     0 ?        S    13:38   0:00 [nvidia]
+sedupug+   38118  0.0  0.3 3048664 49396 ?       Sl   14:14   0:01 gjs /usr/share/gnome-shell/extensions/ding@rastersoft.com/ding.js -E -P /usr/share/gnome-shell/extensions/ding@rastersoft.com -M 0 -D 0:54:3240:2106:2
+root       39296  0.0  0.0      0     0 ?        I    14:44   0:07 [kworker/1:0-events]
+root       39922  0.0  0.0      0     0 ?        I    15:04   0:07 [kworker/7:0-events]
+root       45108  0.0  0.0      0     0 ?        I    17:27   0:00 [kworker/1:1-rcu_gp]
+sedupug+   45767  0.0  0.4 1112936 81496 ?       Sl   17:47   0:01 /home/sedupuganti/.vscode/extensions/ms-vscode.cpptools-1.6.0/bin/cpptools-srv 4955 {C63D845B-18E0-4706-80AF-FB685B902E13}
+root       45847  0.0  0.0      0     0 ?        I    17:47   0:04 [kworker/4:2-mm_percpu_wq]
+root       46493  0.0  0.0      0     0 ?        I    18:07   0:02 [kworker/7:1-events]
+root       46969  0.0  0.0      0     0 ?        I    18:17   0:00 [kworker/3:1-rcu_gp]
+root       47431  0.2  0.0      0     0 ?        I<   18:29   0:14 [kworker/u17:1-MWIFIEX_WORK_QUEUE]
+root       47665  0.0  0.0      0     0 ?        I    18:34   0:00 [kworker/5:1]
+root       48047  0.2  0.0      0     0 ?        I<   18:44   0:13 [kworker/u17:2-MWIFIEX_RX_WORK_QUEUE]
+root       48800  0.0  0.0      0     0 ?        I    19:05   0:02 [kworker/0:0-events]
+root       48811  0.0  0.0      0     0 ?        I    19:05   0:00 [kworker/4:1]
+root       49657  0.3  0.0      0     0 ?        I<   19:28   0:06 [kworker/u17:3-MWIFIEX_WORK_QUEUE]
+sedupug+   49686  0.0  0.0   5924  3568 pts/0    T    19:29   0:00 ./start
+sedupug+   49691  0.0  0.0  19348  3800 pts/0    T    19:29   0:00 nano lol.txt
+root       49812  0.0  0.0      0     0 ?        I    19:32   0:00 [kworker/6:2]
+root       49935  0.0  0.0      0     0 ?        I    19:36   0:00 [kworker/3:2-mm_percpu_wq]
+root       50107  0.0  0.0      0     0 ?        I    19:43   0:00 [kworker/u16:0-events_unbound]
+root       50298  0.0  0.0      0     0 ?        I    19:49   0:00 [kworker/u16:2-events_unbound]
+root       50310  0.0  0.0      0     0 ?        I    19:49   0:00 [kworker/2:0-mm_percpu_wq]
+root       50361  0.0  0.0      0     0 ?        I    19:50   0:00 [kworker/5:2-mm_percpu_wq]
+root       50424  0.0  0.0      0     0 ?        I    19:51   0:00 [kworker/u16:3-events_unbound]
+root       50440  0.3  0.0      0     0 ?        I    19:52   0:02 [kworker/6:1-mm_percpu_wq]
+root       50604  0.0  0.0      0     0 ?        I    19:56   0:00 [kworker/0:2-events]
+root       50655  0.2  0.0      0     0 ?        I<   19:57   0:00 [kworker/u17:0-MWIFIEX_RX_WORK_QUEUE]
+sedupug+   50803  0.0  0.0   5924  3548 pts/0    S+   20:00   0:00 ./start
+sedupug+   50870  0.0  0.0  21264  3380 pts/0    R+   20:02   0:00 ps aux
