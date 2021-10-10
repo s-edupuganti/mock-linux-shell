@@ -270,18 +270,6 @@ vector<string> partSplit (string line, char separator){ // copied from common.cp
 
     // cout << endl;
 
-    cout << "RESULT VECTOR OUTPUT: " << endl;
-
-    for (int i = 0; i < result.size(); i++) {
-        cout << i << "..." << result[i] << endl;
-    }
-
-    cout << endl;
-
-
-    cout << "RESULTS VECTOR SIZE: " << result.size() << endl;
-
-    cout << endl;
 
     // result.push_back(cutQuo);
     
@@ -465,17 +453,17 @@ int main (){
 
                 // cout << "INPUT AFTER PIPEVECT BEFORE PARTSVECT: " << inputline << endl;
 
-                parts = partSplit(trimSpace(inputline), ' ');
+                // parts = partSplit(trimSpace(inputline), ' ');
 
-                // displayVect(parts);
+                // // displayVect(parts);
 
-                // cout << "bruh it gets here" << endl;  
+                // // cout << "bruh it gets here" << endl;  
 
-                cout << "parts[parts.size() - 1]: " << parts[parts.size() - 1] << endl; 
+                // cout << "parts[parts.size() - 1]: " << parts[parts.size() - 1] << endl; 
 
                 // cout << "Parts vector: " << endl;
 
-                displayVect(parts); 
+                // displayVect(parts); 
 
             
 
