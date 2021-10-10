@@ -1,9 +1,0 @@
-total 288
--rw------- 1 sedupuganti sedupuganti      0 Oct 10 01:07 <
--rw------- 1 sedupuganti sedupuganti    576 Oct 10 00:11 a
--rw------- 1 sedupuganti sedupuganti      0 Oct 10 01:31 a.txt
-drwxrwxr-x 2 sedupuganti sedupuganti   4096 Oct  8 00:27 hello
--rw-rw-r-- 1 sedupuganti sedupuganti    100 Oct  7 01:13 makefile
--rw-rw-r-- 1 sedupuganti sedupuganti    698 Oct  7 01:13 README.md
--rwxrwxr-x 1 sedupuganti sedupuganti 259352 Oct 10 01:30 start
--rw-rw-r-- 1 sedupuganti sedupuganti  12781 Oct 10 01:30 start.cpp
