@@ -80,9 +80,43 @@ vector<string> partSplit (string line, char separator){ // copied from common.cp
 
     int startQuo = 0;
     int endQuo = 0;
+    int dollarPos;
+    int endParaPos;
     int quotePos;
 
     string cutQuo = "";
+
+    // if (isCharBetweenChars())
+
+
+    // for (int i = 0; i < line.size(); i++) {
+    //     cout << line[i] << " ";
+    // }
+
+    // cout << endl;
+
+
+
+    // if (line.find('$(') != string::npos) {
+
+    //     cout << "Line size within dollar exp is: " << line.size() << endl;
+    //     // cout << "Dollar expansion found!" << endl;
+
+    //     // dollarPos = (line.find('$(')) - 1;
+
+    //     // cout << "Line size is: " << line.size() << endl;
+
+    //     // for (int i = dollarPos; i < line.size(); i++) {
+    //     //     if (line[i] == ')') {
+    //     //         endParaPos = i;
+    //     //         break;
+    //     //     }
+    //     // }
+
+
+    //     // cout << "Dollar position is: " << dollarPos << endl;
+    //     // cout << "End paranthases position is: " << endParaPos << endl;
+    // }
 
 
 
@@ -99,34 +133,22 @@ vector<string> partSplit (string line, char separator){ // copied from common.cp
         
     }
 
-
     if (line.find('>') != string::npos) {
 
         if (line[line.find('>') + 1] != ' ') {
-
-
             line.insert(line.find('>') + 1, " ");
         }
 
         if (line[line.find('>') - 1] != ' ') {
-
-
             line.insert(line.find('>') - 1, " ");
-        }
- 
-        
+        }        
     }
 
-
-
-    // size_t quotation = line.find_first_of("\"\'");
     if (line.find('\'') != string::npos || (line.find('\"') != string::npos)) {
-        // cout << "Found quotation at: " << quotation << endl;
 
         for (int i  = 0; i < line.size(); i++) {
             if (line[i] == '\'' || line[i] == '\"') {
                 startQuo = i;
-                // cout << "Starting quo: " << startQuo << endl;
                 break;
             }
         }
@@ -134,7 +156,6 @@ vector<string> partSplit (string line, char separator){ // copied from common.cp
         for (int i = line.size(); i >= 0; i--) {
             if (line[i] == '\'' || line[i] == '\"') {
                 endQuo = i;
-                // cout << "Ending quo: " << endQuo << endl;
                 break;
             }
         }
@@ -143,46 +164,11 @@ vector<string> partSplit (string line, char separator){ // copied from common.cp
             cutQuo+=line[i];
         }
 
-            // cout << "SUBSTR W QUOTES: " << cutQuo << endl;
-
         quotePos = line.find(cutQuo);
 
         line.erase(quotePos, cutQuo.size());
 
-        // cout << "Position that CUTQUO was erased: " << quotePos << endl;
-
-
-        // cout << "RESULT VECTOR OUTPUT: ";
-
-        // for (int i = 0; i < result.size(); i++) {
-        //     cout << result[i] << " ";
-        // }
-
-        // cout << endl;
-
-
-        // cout << "RESULTS VECTOR SIZE: " << result.size() << endl;
-
     }
-
-    // bool isFlagExist = false;
-
-
-    // if (line.find("-e") != string::npos) {
-
-    //     isFlagExist = true;
-
-    // } else {
-    //     isFlagExist = false;
-    // }
-
-    
-
-
-
-        // cout << "Line after quote erasure is: " << line << endl;
-        
-
 
 
 	while (line.size()){
@@ -194,7 +180,6 @@ vector<string> partSplit (string line, char separator){ // copied from common.cp
 		if (found!=std::string::npos){
 
 			string part = line.substr(0, found);
-            // cout << part << endl;
 			result.push_back(part);
 			line = line.substr (found+1);
 		}
@@ -205,21 +190,16 @@ vector<string> partSplit (string line, char separator){ // copied from common.cp
     }
 
     int counter = 0;
-    // int eFlagPos = 0;
-
 
     if (cutQuo != "") {
 
 
         for (int i = 0; i < result.size(); i++) {
             for (int j = 0; j < result[i].size(); j++) {
-                // cout << result[i][j] << " ";
                 counter++;
 
                 
                 if (counter == (quotePos - 1)) {
-
-    
 
                     result.insert(result.begin() + (1+i), cutQuo);
                     break;
@@ -227,27 +207,9 @@ vector<string> partSplit (string line, char separator){ // copied from common.cp
                 }
             }
         }
-        // result.push_back(cutQuo);
-
-    
-        // cout << "PUSH BACKED!" << endl;
-
-        // for (int i = 0; i < result.size(); i++) {
-        //     cout << result[i] << " ";
-        // }
-
-        // cout << endl;
     }
 
-    // cout << endl;
 
-    // cout << endl;
-
-
-
-    // cout << endl;
-
-    // cout << "CharCount = " << counter << endl;
 
     const char *pathDirectory = getenv("PATH");
 
@@ -262,28 +224,10 @@ vector<string> partSplit (string line, char separator){ // copied from common.cp
         }
     }
 
-    // displayVect(result);
+    // cout << "DIsplay results.." << endl;
 
+    // displayVect(result);    
 
-
-    
-
-    // cout << endl;
-
-    cout << "RESULT VECTOR OUTPUT: " << endl;
-
-    for (int i = 0; i < result.size(); i++) {
-        cout << i << "..." << result[i] << endl;
-    }
-
-    cout << endl;
-
-
-    cout << "RESULTS VECTOR SIZE: " << result.size() << endl;
-
-    cout << endl;
-
-    // result.push_back(cutQuo);
     
 	return result;
 }
@@ -292,7 +236,9 @@ vector<string> partSplit (string line, char separator){ // copied from common.cp
 vector<string> pipeSplit (string line, char separator){ // copied from common.cpp from PA 1
 	vector<string> result;
 
-                // vector<string> pipeVect = pipeSplit(trimSpace(inputline), '|');
+
+    // cout << line.size() << endl;
+
 
 
 
@@ -300,49 +246,69 @@ vector<string> pipeSplit (string line, char separator){ // copied from common.cp
 
         result = partSplit(trimSpace(line), ' '); 
 
+        vector<string> pipeResult;
+        string tempStr = "";
 
-        cout << "Display results vector with singl: " << endl;
+        for (int i = 0; i < result.size(); i++) {
 
-        displayVect(result);
+            tempStr+=result[i] + ' ';
 
+        }
 
-
-
-        // cout << "yes" << endl;
-
-
+        result.clear();
+        result.push_back(tempStr);
 
         return result;
     }
 
+ 
     if (isCharBetweenChars(line, '|','\"','\"')) {
+
         result = partSplit(trimSpace(line), ' '); 
 
+        vector<string> pipeResult;
+        string tempStr = "";
 
-        cout << "Display results vector with double qyotes: " << endl;
+        for (int i = 0; i < result.size(); i++) {
 
-        displayVect(result);
+            tempStr+=result[i] + ' ';
 
+        }
 
+        result.clear();
+        result.push_back(tempStr);
 
-
-
-        // cout << "yes" << endl;
         return result;
     }
 
+    // if (isCharBetweenChars(line, '|','$(',')')) {
 
+    //     result = partSplit(trimSpace(line), ' '); 
+
+    //     vector<string> pipeResult;
+    //     string tempStr = "";
+
+    //     for (int i = 0; i < result.size(); i++) {
+
+    //         tempStr+=result[i] + ' ';
+
+    //     }
+
+    //     result.clear();
+
+    //     result.push_back(tempStr);
+
+    //     return result;
+    // }
 
 	while (line.size()){
 
-        
 		size_t found = line.find_first_of (separator);
         
 
 		if (found!=std::string::npos){
 
 			string part = line.substr(0, found);
-            // cout << part << endl;
 			result.push_back(part);
 			line = line.substr (found+1);
 		}
@@ -351,15 +317,9 @@ vector<string> pipeSplit (string line, char separator){ // copied from common.cp
 			break;
 		}
     }
-
-
     
 	return result;
 }
-
-
-
-
 
 
 int main (){
@@ -369,58 +329,35 @@ int main (){
 
     string dateTime = dt;
 
-    // int input = dup(0);
-    // int output = dup(1);
-
     dup2(0, 10);
 
-    // cout << dateTime
 
     dateTime.erase(remove(dateTime.begin(), dateTime.end(), '\n'), dateTime.end());
 
-
-    // dateTime.erase(remove(dateTime.begin(), dateTime.end(), '\n'), dateTime.end());
-
     vector<string> parts;
     vector<int> process;
-
-    
 
     const char *homeDirectory = getenv("USER");
 
     char* directory[1024];
 
-
-
-
-    // const char* env_p = getenv("PATH");
-
     while (true){
 
 
         char directory[1024];
-        // string currentDirect = getcwd(directory, sizeof(directory));
-
-        // dup2(input, 0);
-        // dup2(output, 1);
 
         dup2(10, 0);
 
-        cout << "My Shell:" << homeDirectory << ":" << dateTime << "$ "; 
-        // cout << "My Shell$ ";
+        cout << homeDirectory << ":" << dateTime << "$ "; 
 
         string inputline;
         getline (cin, inputline);   // get a line from standard input
-
-        // int startQuo;
-        // int endQuo;
 
         string combinedStr = "";
 
         char doubleQuo = '\"';
         char singleQuo = '\'';
 
-        // vector<int> process;
 
         for (int i = 0; i < process.size(); i++) {
             if(waitpid(process[i], 0, WNOHANG) == process[i]) {
@@ -435,68 +372,64 @@ int main (){
             cout << "Bye!! End of shell" << endl;
             break;
         } else {
-        
-            vector<string> pipeVect = pipeSplit(trimSpace(inputline), '|');
 
+            int dollarPos;
+            int endParaPos;
 
-            // for (int i = 0; i < pipeVect.size(); i++) {
-            //     cout << pipeVect[i] << " ";
+            string emptyStr = "";
+
+            // for (int i = 0; i < line.size(); i++) {
+            //     cout << line[i] << " ";
             // }
 
             // cout << endl;
 
-            // cout << "PIPEVECT DISPLAY: " << endl;
+            if (inputline.find('$(') != string::npos) {
 
-            // displayVect(pipeVect);
+                dollarPos = (inputline.find('$(')) + 1;
 
+                for (int i = dollarPos; inputline.size(); i++) {
+                    if (inputline[i] == ')') {
+                        endParaPos = i;
+                        break;
+                    }
+                }
+
+                for (int i = dollarPos; i < endParaPos; i++) {
+                    emptyStr+=inputline[i];
+                    
+                }
+
+
+                inputline = emptyStr;
+
+            }
+            
         
-
-
-            // parts = split(trimSpace(inputline), ' ');
-
-
+            vector<string> pipeVect = pipeSplit(trimSpace(inputline), '|');
 
 
             for (int i = 0; i < pipeVect.size(); i++) {
+
+
                 int fd[2];
                 pipe(fd);
 
                 inputline = trimSpace(pipeVect[i]);
 
-                // cout << "INPUT AFTER PIPEVECT BEFORE PARTSVECT: " << inputline << endl;
-
                 parts = partSplit(trimSpace(inputline), ' ');
-
-                // displayVect(parts);
-
-                // cout << "bruh it gets here" << endl;  
-
-                cout << "parts[parts.size() - 1]: " << parts[parts.size() - 1] << endl; 
-
-                // cout << "Parts vector: " << endl;
-
-                displayVect(parts); 
-
-            
-
+          
                 if (parts[parts.size() - 1] == "&") {
 
-                    // cout << "bruh this shiut dont woerk" << endl;
                     isBackgroundExist = true;
                     parts.erase(parts.begin() + (parts.size() - 1));
                 }
-
 
                 int pid = fork();
 
                 if (!pid) {
 
-
-                    if (parts[0] == "echo") {
-
-                        // const char *pathDirectory = getenv("PATH");
-
-                    
+                    if (parts[0] == "echo") {                    
 
                         for (int j = 0; j < parts.size(); j++) {
                             if (parts[j][0] == '\"' || parts[j][0] == '\'') {
@@ -505,11 +438,7 @@ int main (){
                                 break;
                             }
                         }
-
-
-
                     }
-
 
                     if (parts[0] == "awk") {
 
@@ -521,9 +450,6 @@ int main (){
                             }
                         }
                     }
-
-
-
 
                     if (parts[0] == "cd") {
 
@@ -547,9 +473,7 @@ int main (){
                             chdir(parts[1].c_str());
 
                         }
-
                     }
-
 
                     if (find(parts.begin(), parts.end(), ">") != parts.end()) {
 
@@ -589,27 +513,15 @@ int main (){
                     
 
                     char* args [parts.size() + 2] = {NULL};
-
-                    // args[parts.size() + 2] = NULL;
-
-                    // displayVect(parts);
-
             
 
                     for (int i = 0; i < parts.size(); i++) {
                         args[i] = (char *)parts.at(i).c_str();
-                        // cout << args[i] << " ";
                     }
-
-
-                    // cout << "PART VECTOR DISPLAY: ";
-
-                    // displayVect(parts);
-
 
                     execvp (args [0], args);
 
-                }else{
+                } else {
 
                     if (isBackgroundExist == false) {
                         if (i == pipeVect.size() - 1) {
@@ -617,8 +529,6 @@ int main (){
                         } else {
                             process.push_back(pid);
                         }
-                        // waitpid (pid, 0, 0); 
-
 
                     } else {
                         process.push_back(pid);
@@ -627,13 +537,8 @@ int main (){
                     dup2(fd[0], 0);
                     close(fd[1]);
                     
-                    // we will discuss why waitpid() is preferred over wait()
                 }
-
-
-            }
-            
+            }  
         }
-
     }
 }

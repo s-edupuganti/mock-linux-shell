@@ -1,0 +1,10 @@
+total 288
+drwxrwxr-x 4 sedupuganti sedupuganti   4096 Oct 10 00:11 .
+drwxr-xr-x 5 sedupuganti sedupuganti   4096 Oct  9 23:17 ..
+-rw------- 1 sedupuganti sedupuganti      0 Oct 10 00:11 a
+drwxrwxr-x 8 sedupuganti sedupuganti   4096 Oct  9 23:16 .git
+drwxrwxr-x 2 sedupuganti sedupuganti   4096 Oct  8 00:27 hello
+-rw-rw-r-- 1 sedupuganti sedupuganti    100 Oct  7 01:13 makefile
+-rw-rw-r-- 1 sedupuganti sedupuganti    698 Oct  7 01:13 README.md
+-rwxrwxr-x 1 sedupuganti sedupuganti 257240 Oct 10 00:11 start
+-rw-rw-r-- 1 sedupuganti sedupuganti  10394 Oct 10 00:11 start.cpp
